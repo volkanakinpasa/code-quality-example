@@ -6,10 +6,10 @@ namespace CodeQuality.NetStandard
     {
         internal static IEnumerable<DeveloperModel> Create => new List<DeveloperModel>()
             {
-                new DeveloperModel{IsDeveloperWorking = false,
+                new DeveloperModel{IsDeveloperWorking = true,
                 Name = "Volkan", Rate = 10},
 
-                new DeveloperModel{IsDeveloperWorking = true,
+                new DeveloperModel{IsDeveloperWorking = false,
                 Name = "RC", Rate = 1}
             };
     }
